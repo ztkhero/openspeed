@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+    speedtest:
+        restart: unless-stopped
+        container_name: openspeedtest
+        ports:
+            - '3000:3000'
+            - '3001:3001'
+        volumes:
+            - ./index.html:/usr/share/nginx/html/index.html
+            - ./app-2.5.4.min.js:/usr/share/nginx/html/assets/js/app-2.5.4.min.js
+            - ./app.svg:/usr/share/nginx/html/assets/images/app.svg
+        image: openspeedtest/latest
+
