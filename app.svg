@@ -66,7 +66,7 @@
             style="fill: #4d4d4d" />
 			</g>
 			<rect fill="transparent" x="0" y="0" width="265" height="60" />
-			<title>OpenSpeedTest™️</title>
+			<title>SpeedTest</title>
 		</a>
 	</symbol>
 	<symbol id="mainGaugebg" viewBox="0 0 295.93 270.18">
@@ -86,7 +86,7 @@
 		<text transform="translate(220.43 79.11) scale(0.9 1)">100</text>
 		<text transform="translate(246.71 164.6) scale(0.9 1)">500</text>
 		<text id="oDoTopSpeed" class="oDoTop-Speed" transform="translate(220.71 265.99) scale(0.9 1)">1000+</text>
-		<text id="oDoLiveSpeed" class="oDoLive-Speed" transform="translate(150 150) scale(1 1)">...</text>
+		<text id="oDoLiveSpeed" class="oDoLive-Speed" transform="translate(150 150) scale(1 1)"></text>
 		<text id="oDoLiveStatus" class="oDoLive-Status" transform="translate(151 170) scale(1 1)"></text>
 	</symbol>
 	<symbol id="progressBar" viewBox="0 0 293.53 18.38">
@@ -333,8 +333,7 @@
 						<title id="title1">Your jitter!</title>
 					</use>
 				</g>
-				<g id="intro-Desk">
-					<use id="logo-Desk" xlink:href="#logo" x="35" y="140" width="222.8" height="50.22"></use>
+				<g id="intro-Desk">				
 					<use id="deskStart" class="deskStart" xlink:href="#mainGaugebg" x="10.28" y="36.11" width="273.94" height="245.39"></use>
 					<use xlink:href="#resultCard" class="Cards" x="307.4" y="31" width="278.1" height="85.5"></use>
 					<use xlink:href="#resultCard" class="Cards" x="307.4" y="228.5" width="278.1" height="85.5"></use>
